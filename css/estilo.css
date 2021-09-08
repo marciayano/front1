@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Nunito:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+}
+
+#banner {
+  background-image: url(https://www.cidadeecultura.com/wp-content/uploads/2018/02/Sao-Paulo-Parque-Ibirapuera-fonte-e-lago-AR0438-web.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  }
+
+  .banner-text{
+    background-color: rgba(255, 255, 255, 0.623);
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Allison', cursive;
+    font-size: 30px;
+    color: rgb(56, 73, 87);
+  }
+
+
+main {
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+}
+
+footer{
+  padding: 10px;
+}
